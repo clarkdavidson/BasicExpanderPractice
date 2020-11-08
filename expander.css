@@ -1,13 +1,53 @@
-h3{
-    text-indent: 100px;
+h5{
+    font-size: small;
+    text-indent: 50px;
     background-color: lightgreen;
-    background-image: url("http://ec2-34-221-236-150.us-west-2.compute.amazonaws.com/WebDev/Modules/04JSWebUI/2ExpanderLab/up.png"),
-    url("http://ec2-34-221-236-150.us-west-2.compute.amazonaws.com/WebDev/Modules/04JSWebUI/2ExpanderLab/down.png");
-    background-position: left, left 20px top;
-    background-size: 20px ,20px;
-    background-repeat: no-repeat;
+    background-position: 20px 10px;
+    width: 200px;
+    height: 15px;
+}
+
+.upArrow{
+    background-position: left;
 }
 
 .border{
     border: 1px solid blue;
+    padding: 10px;
+
+} 
+.indent{
+    padding-left: 25px;
+}
+
+.closed {
+    background-color:red;
+    position: relative;
+    left:45px;
+    top: -40px;
+}
+
+.open{
+    position: relative;
+    left:45px;
+    top: -40px;
+    background-color:lightgreen;
+    background-position: 20px, 10px ;
+}
+.hide-body{
+    font-size: 0;
+    visibility: hidden;
+    display: none;
+}
+.show-body{
+    background-color: white;
+    position: relative;
+    left: 10px;
+    top: -45px;
+}
+img{
+
+    width: 20px;
+    height: 20px;
+    left: 100px;
 }
